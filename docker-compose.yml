@@ -69,8 +69,8 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
-    env_file:
-      - .env
+    #env_file:
+      #- .env
     volumes:
       - rabbitmq-data:/var/lib/rabbitmq
     networks:
