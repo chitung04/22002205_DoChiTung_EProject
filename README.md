@@ -1,5 +1,5 @@
 1. Kiến trúc dự án
-2. 
+   
 <img width="490" height="1024" alt="image" src="https://github.com/user-attachments/assets/d7fb32ad-3ddd-4ce2-be02-2bbc175df026" />
 
 - Mô tả tổng thể Project:
@@ -53,12 +53,10 @@ Request: POST http://localhost:3003/auth/register → Đăng ký tài khoản.
 
 Request: POST http://localhost:3003/auth/login → Đăng nhập và nhận Token.
 
-Request: POST http://localhost:3003/products/api/products → Thêm sản phẩm vào phần body- row. Nhập Token vào Bearer Token.
+Request: POST http://localhost:3003/products/api/products → Thêm sản phẩm.
 
-Request: GET  http://localhost:3003/products/api/products  →  Xem sản phẩm. chon vào Bearer Token , nhập Token vào.
+Request: GET  http://localhost:3003/products/api/products  →  Xem sản phẩm.
 
-Request: POST http://localhost:3003/products/api/products/buy   → order sản phẩm nhập vào ids của id sản phẩm send 
-được bỏ vô trong row.
-
+Request: POST http://localhost:3003/products/api/products/buy   → order sản phẩm.
 
    
