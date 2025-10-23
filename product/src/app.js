@@ -52,5 +52,4 @@ class App {
     console.log("Server stopped");
   }
 }
-
 module.exports = App;
